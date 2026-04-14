@@ -6,8 +6,8 @@ authors = [{ name = "Christos Aniftos", email = "aniftos@google.com" }]
 license = "Apache-2.0"
 readme = "README.md"
 dependencies = [
-    "google-cloud-aiplatform[adk,agent_engine]>=1.93.0",
-    "google-adk>=1.0.0",
+    "google-cloud-aiplatform[adk,agent_engine]>=1.147.0",
+    "google-adk>=1.30.0",
     "pydantic-settings>=2.8.1",
     "tabulate>=0.9.0",
     "cloudpickle>=3.1.1",
@@ -19,7 +19,7 @@ requires-python = ">=3.10,<3.13"
 
 [dependency-groups]
 dev = [
-    "pytest>=8.3.5",
+    "pytest>=9.0.3",
     "pytest-mock>=3.14.0",
     "pytest-cov>=6.0.0",
     "pytest-asyncio>=0.25.3",
@@ -27,7 +27,7 @@ dev = [
     "pylint>=3.3.6",
     "pyink>=24.10.1",
     "jsonschema>=4.23.0",
-    "google-cloud-aiplatform[evaluation]>=1.93.0",
+    "google-cloud-aiplatform[evaluation]>=1.147.0",
     "agent-starter-pack>=0.14.1",
 ]
 

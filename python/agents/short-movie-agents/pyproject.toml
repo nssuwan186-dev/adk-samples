@@ -20,10 +20,10 @@ authors = [
     {name = "Remigiusz Samborski"},
 ]
 dependencies = [
-    "google-adk~=1.14.0",
+    "google-adk>=1.14,<1.31",
     "opentelemetry-exporter-gcp-trace~=1.9.0",
     "google-cloud-logging>=3.12.0",
-    "google-cloud-aiplatform[evaluation]~=1.116.0",
+    "google-cloud-aiplatform[evaluation]>=1.116,<1.148",
     "fastapi~=0.115.8",
     "uvicorn~=0.34.0",
     "psycopg2-binary>=2.9.10",
