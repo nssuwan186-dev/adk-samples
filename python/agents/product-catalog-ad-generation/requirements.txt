@@ -4,7 +4,7 @@ absolufy-imports==0.3.1
     # via google-adk
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.15
+aiohttp==3.13.4
     # via
     #   video-gen (pyproject.toml)
     #   toolbox-core
@@ -27,7 +27,7 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
-authlib==1.6.3
+authlib==1.6.9
     # via google-adk
 cachetools==5.5.2
     # via google-auth
@@ -48,7 +48,7 @@ click==8.2.1
     #   uvicorn
 cloudpickle==3.1.1
     # via google-cloud-aiplatform
-cryptography==45.0.7
+cryptography==46.0.7
     # via authlib
 decorator==5.2.1
     # via moviepy
@@ -62,7 +62,7 @@ frozenlist==1.7.0
     # via
     #   aiohttp
     #   aiosignal
-google-adk==1.13.0
+google-adk==1.28.1
     # via video-gen (pyproject.toml)
 google-api-core==2.25.1
     # via
@@ -103,7 +103,7 @@ google-auth==2.40.3
     #   toolbox-core
 google-auth-httplib2==0.2.0
     # via google-api-python-client
-google-cloud-aiplatform==1.111.0
+google-cloud-aiplatform==1.133.0
     # via
     #   video-gen (pyproject.toml)
     #   google-adk
@@ -291,7 +291,7 @@ packaging==25.0
     #   pytest
 pandas==2.3.2
     # via video-gen (pyproject.toml)
-pillow==11.3.0
+pillow==12.2.0
     # via
     #   imageio
     #   moviepy
@@ -334,7 +334,7 @@ protobuf==6.32.0
     #   grpc-google-iam-v1
     #   grpcio-status
     #   proto-plus
-pyasn1==0.6.1
+pyasn1==0.6.3
     # via
     #   pyasn1-modules
     #   rsa
@@ -362,7 +362,7 @@ pygments==2.19.2
     # via pytest
 pyparsing==3.2.3
     # via httplib2
-pytest==8.4.2
+pytest==9.0.3
     # via video-gen (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via
@@ -374,7 +374,7 @@ python-dotenv==1.1.1
     #   google-adk
     #   moviepy
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.26
     # via mcp
 pytz==2025.2
     # via pandas
@@ -387,7 +387,7 @@ referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   google-adk
     #   google-api-core
