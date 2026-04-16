@@ -19,7 +19,7 @@ dependencies = [
     "moviepy>=2.2.1",
     "google-cloud-texttospeech>=2.29.0",
     "soundfile>=0.13.1",
-    "pytest>=8.4.2",
+    "pytest>=9.0.3",
     "aiohttp>=3.12.15",
 ]
 
@@ -30,6 +30,6 @@ packages = ["content_gen_agent"]
 dev = [
     "flake8>=7.3.0",
     "python-dotenv>=1.1.1",
-    "pytest>=8.3.2",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.23.7",
 ]
