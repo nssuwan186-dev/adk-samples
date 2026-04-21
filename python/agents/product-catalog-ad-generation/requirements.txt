@@ -27,7 +27,7 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
-authlib==1.6.3
+authlib==1.6.11
     # via google-adk
 cachetools==5.5.2
     # via google-auth
@@ -62,7 +62,7 @@ frozenlist==1.7.0
     # via
     #   aiohttp
     #   aiosignal
-google-adk==1.13.0
+google-adk==1.28.1
     # via video-gen (pyproject.toml)
 google-api-core==2.25.1
     # via
@@ -233,9 +233,9 @@ langchain-core==0.3.75
     # via
     #   langchain
     #   langchain-text-splitters
-langchain-text-splitters==0.3.11
+langchain-text-splitters==1.1.2
     # via langchain
-langsmith==0.4.23
+langsmith==0.7.31
     # via
     #   langchain
     #   langchain-core
@@ -369,12 +369,12 @@ python-dateutil==2.9.0.post0
     #   google-adk
     #   google-cloud-bigquery
     #   pandas
-python-dotenv==1.1.1
+python-dotenv==1.2.2
     # via
     #   google-adk
     #   moviepy
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.26
     # via mcp
 pytz==2025.2
     # via pandas
