@@ -12,10 +12,10 @@ authors = [
 keywords = ["adk", "agents", "gemini", "retail", "location-strategy"]
 
 dependencies = [
-    "google-adk>=1.20.0",
+    "google-adk>=1.28.1",
     "googlemaps>=4.10.0",
     "pydantic>=2.10.0",
-    "python-dotenv>=1.0.0",
+    "python-dotenv>=1.2.2",
 ]
 
 [project.urls]
