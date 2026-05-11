@@ -229,7 +229,7 @@ jsonschema-specifications==2025.4.1
     # via jsonschema
 langchain==0.3.27
     # via video-gen (pyproject.toml)
-langchain-core==0.3.75
+langchain-core==1.3.3
     # via
     #   langchain
     #   langchain-text-splitters
@@ -291,7 +291,7 @@ packaging==25.0
     #   pytest
 pandas==2.3.2
     # via video-gen (pyproject.toml)
-pillow==11.3.0
+pillow==12.2.0
     # via
     #   imageio
     #   moviepy
@@ -374,7 +374,7 @@ python-dotenv==1.1.1
     #   google-adk
     #   moviepy
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.27
     # via mcp
 pytz==2025.2
     # via pandas
@@ -467,7 +467,7 @@ tzlocal==5.3.1
     # via google-adk
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.5.0
+urllib3==2.7.0
     # via requests
 uvicorn==0.35.0
     # via
